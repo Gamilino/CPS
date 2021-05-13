@@ -119,7 +119,7 @@ class Main extends PluginBase implements Listener
                         $sender->sendMessage($this->DisabledMessage);
                     }
                     else{
-                        $sender->sendMessage(TextFormat::RED . "Usage: /cps <on/off>");
+                        $sender->sendMessage(TextFormat::RED . "§cBenutzung: /cps <on/off>");
                     }
                 }
         }
